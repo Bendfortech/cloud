@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VPS Pricing Theme</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="pricing-shell">
+    <header class="pricing-header">
+      <div class="plan-tabs" role="tablist" aria-label="Chọn loại VPS">
+        <button class="plan-tab active" data-plan="pro" aria-selected="true">VPS Pro</button>
+        <button class="plan-tab" data-plan="business">VPS Business</button>
+        <button class="plan-tab" data-plan="enterprise">VPS Enterprise</button>
+      </div>
+    </header>
+
+    <section class="duration-picker" aria-label="Chọn thời gian">
+      <button class="duration-btn active" data-duration="1">1 tháng</button>
+      <button class="duration-btn" data-duration="3">3 tháng</button>
+      <button class="duration-btn" data-duration="6">6 tháng</button>
+      <button class="duration-btn" data-duration="12">12 tháng</button>
+      <button class="duration-btn" data-duration="24">24 tháng</button>
+    </section>
+
+    <div class="table-wrap">
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Gói</th>
+            <th>CPU</th>
+            <th>RAM</th>
+            <th>SSD NVMe</th>
+            <th>Băng thông</th>
+            <th>Giá</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="pricing-body">
+          <tr>
+            <td>Mini1</td>
+            <td>1 Core INTEL PLATINUM Core</td>
+            <td>1 GB</td>
+            <td>10 GB NVMe</td>
+            <td>5TB</td>
+            <td><span class="price">90.000 VND</span></td>
+            <td><button class="action-btn">Đăng ký ngay</button></td>
+          </tr>
+          <tr>
+            <td>Mini2</td>
+            <td>2 Core INTEL PLATINUM Core</td>
+            <td>2 GB</td>
+            <td>25 GB NVMe</td>
+            <td>5TB</td>
+            <td><span class="price">170.000 VND</span></td>
+            <td><button class="action-btn">Đăng ký ngay</button></td>
+          </tr>
+          <tr>
+            <td>Mini3</td>
+            <td>3 Core INTEL PLATINUM Core</td>
+            <td>3 GB</td>
+            <td>40 GB NVMe</td>
+            <td>5TB</td>
+            <td><span class="price">240.000 VND</span></td>
+            <td><button class="action-btn">Đăng ký ngay</button></td>
+          </tr>
+          <tr>
+            <td>Mini4</td>
+            <td>4 Core INTEL PLATINUM Core</td>
+            <td>4 GB</td>
+            <td>50 GB NVMe</td>
+            <td>10TB</td>
+            <td><span class="price">300.000 VND</span></td>
+            <td><button class="action-btn">Đăng ký ngay</button></td>
+          </tr>
+          <tr>
+            <td>Mini5</td>
+            <td>6 Core INTEL PLATINUM Core</td>
+            <td>6 GB</td>
+            <td>80 GB NVMe</td>
+            <td>10TB</td>
+            <td><span class="price">460.000 VND</span></td>
+            <td><button class="action-btn">Đăng ký ngay</button></td>
+          </tr>
+          <tr>
+            <td>Mini6</td>
+            <td>8 Core INTEL PLATINUM Core</td>
+            <td>8 GB</td>
+            <td>100 GB NVMe</td>
+            <td>15TB</td>
+            <td><span class="price">640.000 VND</span></td>
+            <td><button class="action-btn">Đăng ký ngay</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
