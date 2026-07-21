@@ -1,3 +1,2 @@
 # Vps cloud
-1. Xây dựng web quản lý vps https://bendfortech.com
-2 Kết Nối Data
+Xây dựng giao diện website quản lý vps https://bendfortech.com
